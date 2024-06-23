@@ -1,4 +1,4 @@
-This project report presents the design and implementation of a hotel management system aimed 
+This project presents the design and implementation of a hotel management system aimed 
 at automating and optimizing guest room operations. The system features a scalable three-tier 
 architecture and integrates essential functionalities including secure user login and registration, 
 room inventory management, categorization of room types, dynamic pricing strategies etc. It 
