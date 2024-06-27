@@ -13,10 +13,10 @@ expectations.
 
 Features:
 
-● User Authentication - Allows users to securely log in and Sign Up. 
-● Room reservation - Enables customers to book rooms online based on availability. 
-● Check-in check-out - Manages the process of guest arrivals and departures. 
-● Employee management - Admins can add, update, and manage employee records and 
+User Authentication - Allows users to securely log in and Sign Up. 
+Room reservation - Enables customers to book rooms online based on availability. 
+Check-in check-out - Manages the process of guest arrivals and departures. 
+Employee management - Admins can add, update, and manage employee records and 
 roles. 
 ● Parking management - Organizes available parking spaces for guests if needed. 
 ● Dynamic pricing - Adjusts room rates automatically based on demand and other factors. 
