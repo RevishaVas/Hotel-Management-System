@@ -1,56 +1,108 @@
-This project presents the design and implementation of a hotel management system aimed 
-at automating and optimizing guest room operations. The system features a scalable three-tier 
-architecture and integrates essential functionalities including secure user login and registration, 
-room inventory management, categorization of room types, dynamic pricing strategies etc. It 
-streamlines reservation processes, enhances employee management, and facilitates efficient 
-check-in/check-out procedures. Additionally, the system supports automated billing and invoicing, 
-and includes parking management to improve guest services. A robust database design supports 
-efficient data storage and retrieval, ensuring secure and accurate operations. This system 
-empowers hotel staff to manage operations seamlessly, leading to increased productivity and 
-enhanced guest satisfaction. Through the adoption of this system, hotels can achieve modernized 
-and efficient management, aligning with contemporary business demands and guest 
-expectations. 
+# 🏨 Hotel Management System
 
-Features:
+This project presents the **design and implementation** of a full-featured **Hotel Management System** aimed at automating and optimizing guest room operations. Built with a **scalable three-tier architecture**, the system supports essential hotel functions like **room booking, employee and parking management, billing, and analytics**, all integrated into a seamless web interface.
 
-User Authentication - Allows users to securely log in and Sign Up. 
-Room reservation - Enables customers to book rooms online based on availability. 
-Check-in check-out - Manages the process of guest arrivals and departures. 
-Employee management - Admins can add, update, and manage employee records and 
-roles. 
-● Parking management - Organizes available parking spaces for guests if needed. 
-● Dynamic pricing - Adjusts room rates automatically based on demand and other factors. 
-● Billing and invoicing - Generates and processes invoices and bills for guest stays and 
-services. 
-● Voucher System - Admins can create, delete and manage vouchers with specific 
-discounts. Customers can apply vouchers while payments to avail discounts 
-● Analytics - Data displayed to Admins to check overall status on available rooms and total 
-rooms booked and total users logged in. 
-● Feedback Form - Allows customers to submit feedback and reviews about their stay and 
-services. 
+The system empowers hotel staff to manage daily operations with ease, enhancing productivity and delivering a modern experience aligned with contemporary guest expectations.
 
+---
 
- Setting up the development Environment 
-● Eclipse IDE - Installation of Eclipse IDE for Java EE Developers. 
-● Java SDK: Ensure Java Development Kit (JDK) is installed 
-● Tomcat server: Set up Apache Tomcat Server for running web application 
-● MySQL workbench: Install MySQL workbench for database management 
-● Bootstrap: For responsive design 
+## 🚀 Features
 
- Front-End development: 
-● HTML5: Used to structure Web pages 
-● CSS: Used to style the pages 
-● JavaScript: Used for dynamic interactions on web pages 
-● Bootstrap:  Used to create responsive and modern user interface. 
+- 🔐 **User Authentication**  
+  Secure login and registration functionality for staff and admin users.
 
- Backend development: 
-● Servlets: Used to handle requests and reponses between the client and server. 
-● Java Classes: Model Classes to represent the data objects and business logic 
+- 🛏️ **Room Reservation**  
+  Customers can book rooms online based on real-time availability and category.
 
- Database Connectivity: 
-● JDBC: used to connect and interact with MySQL database 
+- 🧾 **Check-In / Check-Out**  
+  Manages the arrival and departure of guests with tracking.
 
- Integration and Testing: 
-● Integrating front end and back end using servlets and JSPs 
-● Test individual components for entire system for functionality and performance
+- 👩‍💼 **Employee Management**  
+  Admins can add, update, and manage employee records and role assignments.
+
+- 🚗 **Parking Management**  
+  Organizes and tracks available parking spaces for hotel guests.
+
+- 💰 **Dynamic Pricing**  
+  Automatically adjusts room prices based on demand and occupancy trends.
+
+- 💳 **Billing and Invoicing**  
+  Generates digital invoices for stays and services rendered.
+
+- 🎟️ **Voucher System**  
+  Create and manage discount vouchers. Customers can apply vouchers at checkout.
+
+- 📊 **Analytics Dashboard**  
+  Displays real-time statistics on room occupancy, bookings, and user activity.
+
+- 📝 **Feedback Collection**  
+  Guests can submit feedback and reviews about their stay.
+
+---
+
+## ⚙️ Technologies Used
+
+### 🖥️ Frontend
+
+- **HTML5** — Page structure  
+- **CSS3** — Styling  
+- **JavaScript** — Interactive behaviors  
+- **Bootstrap** — Responsive UI design
+
+### 🧠 Backend
+
+- **Java Servlets** — Handle business logic and HTTP requests/responses  
+- **Java Classes** — Define models and business processes  
+- **JSP (JavaServer Pages)** — For server-side rendering
+
+### 🗄️ Database
+
+- **MySQL** — Relational database for persistent data  
+- **JDBC (Java Database Connectivity)** — Bridge between Java and MySQL
+
+---
+
+## 🛠️ Development Environment Setup
+
+### Prerequisites
+
+- [Eclipse IDE for Java EE Developers](https://www.eclipse.org/downloads/packages/)
+- [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+- [Apache Tomcat Server](https://tomcat.apache.org/) — to deploy and run the application
+- [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) — for database management
+
+---
+
+## 📦 How to Run the Project
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/RevishaVas/Hotel-Management-System.git
+   
+2. **Import the Project in Eclipse**
+
+   Open Eclipse IDE
+
+   File → Import → Dynamic Web Project → Select folder
+
+3.  **Configure Tomcat Server**
+
+     Add Tomcat in Eclipse
+
+     Right-click project → Run on Server
+
+4. **Setup Database**
+
+    Open MySQL Workbench
+
+    Import the SQL dump (if provided)
+
+    Update ```DBConfig.java``` or relevant class with your credentials
+
+5. **Launch the App**
+
+    Go to ```http://localhost:8080/Hotel-Management-System```
+
+    Use login credentials to test different roles (Admin, Staff)
 
